@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: dimgrey;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            
+        }
+
+        nav {
+            background-color: grey;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 2px rgba(0, 0, 0, 0.462);
+            border-radius: 5px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        #assuntos {
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 5px 2px 2px 2px rgba(211, 211, 211, 0.453);
+        }
+        #assuntos > p {
+             padding: 10px;
+             margin-left: 10px;
+        }
+
+        article{
+            padding: 10px;
+            background-color: lightgray;
+            border-radius: 10px;
+        }
+
+        
+
+        article > aside {
+            background-color: rgb(117, 117, 117);
+            text-align: center;
+        }
+
+
+        footer{
+            
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            border-radius: 2px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+          height: 100px;
+          width: 100px;
+          margin: 15px;
+          background-color: white;
+          border-radius: 50%;
+        }
+
+        div#bola > img {
+            height: 100px;
+            width: 95px;
+        }
+
+        div#bola2 {
+            text-align: center;
+
+            height: 100px;
+            width: 100px;
+            margin: 15px;
+            background-color: aquamarine;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes  Política  Tecnologia</p>
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, distinctio rem reprehenderit rerum quis qui fuga sed praesentium obcaecati perferendis voluptatem facilis suscipit debitis labore temporibus, architecto voluptates beatae! Voluptates!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+       <p>Desenvolvido por cursoemideo</p>
+    </footer>
+    <div id="bola"> <img src="img/GATO.PNG" alt="gato"></div>
+    <div id="bola2"></div>
+    
+</body>
+</html>
+
